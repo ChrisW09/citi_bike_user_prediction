@@ -1,7 +1,5 @@
-*Instructions: Click on the raw button in the upper right hand corner of this box.  Copy and paste the template into the README.md document on your github.  Fill in the titles, information and links where prompted! Feel free to stray a bit to suit your project but try to stick to the format as closely as possible for consistency across DSWG projects.*
-
 # kdd_project_team_10
-This project is part of the Knowledge, Discovery in Databases course from University of North Carolina, Charlotte.
+This project is part of the Knowledge, Discovery in Databases course from University of North Carolina at Charlotte.
 
 #### -- Project Status: [Active]
 
@@ -12,8 +10,8 @@ The purpose of this project is ________. (Describe the main goals of the project
 * Inferential Statistics
 * Machine Learning
 * Data Visualization
+* Feature Engineering
 * Predictive Modeling
-* etc.
 
 ### Technologies
 * Python
@@ -34,13 +32,13 @@ The purpose of this project is ________. (Describe the main goals of the project
 - writeup/reporting
 - etc. (be as specific as possible)
 
-## Getting Started
+## CRISP-DM Model - Bikeshare Data(Tentative)
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+1. Installation:
+   o Anaconda 4.5.12 Distribution
+   o Python 3.7
+2. Project Motivation
 
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
 3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
 4. etc...
 
