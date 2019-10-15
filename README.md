@@ -35,8 +35,8 @@ The purpose of this project is ________. (Describe the main goals of the project
 ## CRISP-DM Model - Bikeshare Data(Tentative)
 
 1. Installation:
-   o Anaconda 4.5.12 Distribution
-   o Python 3.7
+   - Anaconda 4.5.12 Distribution
+   - Python 3.7
 2. Project Motivation
 
 3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
