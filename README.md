@@ -62,13 +62,13 @@ The purpose of this project is ________. (Describe the main goals of the project
 
 ## Contributing DSWG Members
 
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Sriganesh Lokesh](https://github.com/[github handle])| @johnDoe        |
-|[Jignesh Manoj Jain](https://github.com/[github handle]) |     @janeDoe    |
-|[Maheshwar Munde](https://github.com/[github handle]) |     @janeDoe    |
-|[Tejashri Arote](https://github.com/[github handle]) |     @janeDoe    |
-|[Neela Ayshwaria Alagappan](https://github.com/[github handle]) |     @janeDoe    |
+|Name     | 
+|---------|
+|[Sriganesh Lokesh](https://github.com/[github handle])| 
+|[Jignesh Manoj Jain](https://github.com/[github handle]) |    
+|[Maheshwar Munde](https://github.com/[github handle]) |    
+|[Tejashri Arote](https://github.com/[github handle]) |    
+|[Neela Ayshwaria Alagappan](https://github.com/[github handle]) |
 
 ## Contact
 * If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
