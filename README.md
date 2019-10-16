@@ -74,7 +74,7 @@ To build a model which is acuurate to accomodate above mentioned hypothesis.
 |Name     | 
 |---------|
 |[Sriganesh Lokesh](https://github.com/sriganeshlokesh)| 
-|[Jignesh Manoj Jain](https://github.com/[github handle]) |    
+|[Jignesh Manoj Jain](https://github.com/jignesh-jain) |    
 |[Maheshwar Mundhe](https://github.com/maheshwar-mundhe) |    
 |[Tejashri Arote](https://github.com/[github handle]) |    
 |[Neela Ayshwaria Alagappan](https://github.com/[github handle]) |
