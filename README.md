@@ -1,68 +1,80 @@
-# kdd_project_team_10
-This project is part of the Knowledge, Discovery in Databases course from University of North Carolina at Charlotte.
+# KDD Panthers (Group 10)
+This project is part of the Knowledge Discovery in Databases (ITCS - 6262) course from University of North Carolina at Charlotte.
 
 #### -- Project Status: [Active]
 
-## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+## Project Objective
+The Objective of this project is to visualize the New York Citi Bike Share data and to classify the users under the category Subscriber and Customer.
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
+* Exploratory Data Analysis
+* Data Preprocessing 
 * Feature Engineering
+* Machine Learning
 * Predictive Modeling
 
-### Technologies
+### Technologies/Libraries
 * Python
 * Pandas, jupyter
 * Scikit-learn
 * Numpy
 * Seaborn
 * Scipy
+* gmplot
+* googlemaps
 
-## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+### Data and Source Description 
+Link to the dataset: https://www.citibikenyc.com/system-data
 
-## Needs of this project
+The dataset which is used for this project is New York Citi Bike share data which gives an extensive information about following attributes:
+* Trip Duration (seconds)
+* Start Time and Date
+* Stop Time and Date
+* Start Station Name
+* End Station Name
+* Station ID
+* Station Lat/Long
+* Bike ID
+* User Type (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Member)
+* Gender (Zero=unknown; 1=male; 2=female)
+* Year of Birth
 
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+### CRISP-DM Model
 
-## CRISP-DM Model - Bikeshare Data(Tentative)
-
-1. Installation:
+#### 1. Installation:
    - Anaconda 4.5.12 Distribution
    - Python 3.7
-2. Project Motivation
+   
+#### 2. Data understanding and Exploratory Data Analysis
 
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
+Using the Cross-Industry Standard Process of Data Mining (CRISP-DM) the New York citi bike share dataset is collected, cleaned and engineered, such that a good number of business insights are gathered, of which the following five questions are focused upon:
 
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
+* Which gender is mainly using this service?
+* Which age group has been using this service?
+* Locations with maximum customer density.
+* Predicting future subscribers based on customers travelling on a specific route.
+* Checking when the service is highly utitlized for a particular time of the day.
 
-5. Follow setup [instructions](Link to file)
+#### 3. Data preparation
 
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+Based on the current attributes we will be feature engineering some attributes based on the EDA.
 
+#### 4. Machine Learning
 
-## Contributing Project Members
+As per the data we will be using Supervised Classification Algorithm like Random Forest classifier and Naive Bayes Classifier
+
+#### 5. Evaluation
+As per the model we will be using accuracy_score as a metric to evalaute the performance of the model.
+
+#### 6. Conclusion 
+To build a model which is acuurate to accomodate above mentioned hypothesis.
+
+#### Contributing Project Members
 
 |Name     | 
 |---------|
 |[Sriganesh Lokesh](https://github.com/[github handle])| 
 |[Jignesh Manoj Jain](https://github.com/[github handle]) |    
-|[Maheshwar Munde](https://github.com/[github handle]) |    
+|[Maheshwar Mundhe](https://github.com/[github handle]) |    
 |[Tejashri Arote](https://github.com/[github handle]) |    
 |[Neela Ayshwaria Alagappan](https://github.com/[github handle]) |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
