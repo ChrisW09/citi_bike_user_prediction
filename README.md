@@ -4,9 +4,9 @@ This project is part of the Knowledge Discovery in Databases (ITCS - 6162) cours
 #### -- Project Status: [Active]
 
 ## Project Objective
-The Objective of this project is to visualize the New York Citi Bike Share data and to classify the users under the category Subscriber and Customer.
+The Objective of this project is to predict the type of User (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Member) based on trip duration. We will also try to predict whether a customer would be a potential subscriber based on the frequency of trips and trip durations.
 
-### Methods Used
+### Methods Used  
 * Exploratory Data Analysis
 * Data Preprocessing 
 * Feature Engineering
@@ -14,14 +14,13 @@ The Objective of this project is to visualize the New York Citi Bike Share data 
 * Predictive Modeling
 
 ### Technologies/Libraries
-* Python
-* Pandas, jupyter
-* Scikit-learn
-* Numpy
-* Seaborn
+* python
+* pandas, jupyter
+* scikit-learn
+* numpy
+* seaborn
 * Scipy
-* gmplot
-* googlemaps
+* folium maps
 
 ### Data and Source Description 
 Link to the dataset: https://www.citibikenyc.com/system-data
@@ -49,15 +48,23 @@ The dataset which is used for this project is New York Citi Bike share data whic
 
 Using the Cross-Industry Standard Process of Data Mining (CRISP-DM) the New York citi bike share dataset is collected, cleaned and engineered, such that a good number of business insights are gathered, of which the following five questions are focused upon:
 
-* Which gender is mainly using this service?
-* Which age group has been using this service?
-* Locations with maximum customer density.
-* Predicting future subscribers based on customers travelling on a specific route.
-* Checking when the service is highly utitlized for a particular time of the day.
+* Which station has highest usage?
+* What is the trip duration?
+* Which users have high trip duration?
+* Which age group has highest usage?
+* Which station has highest registered users?
+* What time of the day is the service highly utilized?
+* Which borough has the highest service usage?
 
 #### 3. Data preparation
 
-Based on the current attributes we will be feature engineering some attributes based on the EDA.
+Considering correlation of all the variables, we have considered the trip duration,start and end station id and name, start and end station latitude and longitude, gender,year and target variable usertype.
+
+* We have feature engineered the trip distance based on the latitude and longitude values using the [Haversine Distance](https://en.wikipedia.org/wiki/Haversine_formula).
+
+* We have converted the trip duration from seconds to minutes for the purpose of EDA.
+
+* We have considered the 5 boroughs of New York(Manhattan, Queens, Brooklyn, Bronx and Staten Island) and feature engineered a new column based on specific latitude and longitude boundary values of the 5 boroughs.
 
 #### 4. Machine Learning
 
