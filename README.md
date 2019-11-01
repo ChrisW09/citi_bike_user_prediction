@@ -84,4 +84,4 @@ To build a model which is acuurate to accomodate above mentioned hypothesis.
 |[Jignesh Manoj Jain](https://github.com/jignesh-jain) |    
 |[Maheshwar Mundhe](https://github.com/maheshwar-mundhe) |    
 |[Tejashri Arote](https://github.com/[github handle]) |    
-|[Neela Ayshwaria Alagappan](https://github.com/[github handle]) |
+|[Neela Ayshwaria Alagappan](https://github.com/NeelaAyshwaria) |
