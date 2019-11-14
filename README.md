@@ -21,6 +21,8 @@ The Objective of this project is to predict the type of User (Customer = 24-hour
 * seaborn
 * Scipy
 * folium maps
+* pytorch
+* google colab
 
 ### Data and Source Description 
 Link to the dataset: https://www.citibikenyc.com/system-data
@@ -68,7 +70,19 @@ Considering correlation of all the variables, we have considered the trip durati
 
 #### 4. Machine Learning
 
-As per the data we will be using Supervised Classification Algorithm like Random Forest classifier and Naive Bayes Classifier
+As the dataset has 1.2 Million records, we will implementing our model in **Google Colab**.
+
+For building and training the model we will be using **Ensemble Learning**. For initial analysis, we used Random Forest Classifier, Bagging Classifier, AdaBoost Classifier and GradientBoost Classifier. 
+
+Out of the 4 classifiers, Random Forest Classifier had the highest accuracy score of 86.71% followed by Bagging Classifier with an accuracy of 84.65%.
+
+As per the highest accuracy standpoint, we have chosen **Random Forest Classifier** as our base model and have applied GridSearchCV to tune the hyperparameters.
+
+Gridsearch CV
+
+Alternatively, we have implemented an **Artificial Neural Network** using **Pytorch** to our dataset. We have trained the neural network for 150 epochs using 4 hidden layers in a Sequential Manner with a learning rate of 0.01.
+
+
 
 #### 5. Evaluation
 As per the model we will be using accuracy_score as a metric to evalaute the performance of the model.
