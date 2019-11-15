@@ -4,7 +4,7 @@ This project is part of the Knowledge Discovery in Databases (ITCS - 6162) cours
 #### -- Project Status: [Active]
 
 ## Project Objective
-The Objective of this project is to predict the type of User (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Member) based on trip duration. We will also try to predict whether a customer would be a potential subscriber based on the frequency of trips and trip durations.
+The Objective of this project is to predict the **usertype** (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Member) based on trip duration. We will also try to predict whether a customer would be a potential subscriber based on the frequency of trips and trip durations.
 
 ### Methods Used  
 * Exploratory Data Analysis
