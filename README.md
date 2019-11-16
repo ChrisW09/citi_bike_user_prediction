@@ -50,13 +50,14 @@ The dataset which is used for this project is New York Citi Bike share data whic
 
 Using the Cross-Industry Standard Process of Data Mining (CRISP-DM) the New York citi bike share dataset is collected, cleaned and engineered, such that a good number of business insights are gathered, of which the following five questions are focused upon:
 
-* Which station has highest usage?
-* What is the trip duration?
-* Which users have high trip duration?
-* Which age group has highest usage?
-* Which station has highest registered users?
-* What time of the day is the service highly utilized?
-* Which borough has the highest service usage?
+1 Which are the Top 5 Bike Stations by Number of Starts?
+2 Which are the Most Popular Trips?
+3 Which borough has the highest service usage?
+4 How long are the most users travelling?
+5 Which gender uses the service adequately?
+6 Which age group has highest usage?
+7 What is the average trip duration based on User Type?
+8 Which user types have high trip duration?
 
 #### 3. Data preparation
 
@@ -72,17 +73,13 @@ Considering correlation of all the variables, we have considered the trip durati
 
 As the dataset has 1.2 Million records, we will implementing our model in **Google Colab**.
 
-For building and training the model we will be using **Ensemble Learning**. For initial analysis, we used Random Forest Classifier, Bagging Classifier, AdaBoost Classifier and GradientBoost Classifier. 
+For building and training the model we will be using **Ensemble Learning**. For initial analysis, we will be applying pipeling to the ensemble learning techniques, namely - **Random Forest Classifier, Bagging Classifier, AdaBoost Classifier and Gradient Boosting Classifier.** 
 
-Out of the 4 classifiers, Random Forest Classifier had the highest accuracy score of 86.71% followed by Bagging Classifier with an accuracy of 84.65%.
+Out of the 4 classifiers, **Random Forest Classifier** had the highest accuracy score of 86.35% followed by **Bagging Classifier** with an accuracy of 84.60%.
 
 As per the highest accuracy standpoint, we have chosen **Random Forest Classifier** as our base model and have applied GridSearchCV to tune the hyperparameters.
 
-Gridsearch CV
-
-Alternatively, we have implemented an **Artificial Neural Network** using **Pytorch** to our dataset. We have trained the neural network for 150 epochs using 4 hidden layers in a Sequential Manner with a learning rate of 0.01.
-
-
+Alternatively, we have implemented an **Artificial Neural Network** using **Pytorch** to our dataset. We have trained the neural network for 100 epochs using 4 hidden layers in a Sequential Manner with a learning rate of 0.01 and with a accuracy score of 92%.
 
 #### 5. Evaluation
 As per the model we will be using accuracy_score as a metric to evalaute the performance of the model.
