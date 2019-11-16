@@ -50,21 +50,21 @@ The dataset which is used for this project is New York Citi Bike share data whic
 
 Using the Cross-Industry Standard Process of Data Mining (CRISP-DM) the New York citi bike share dataset is collected, cleaned and engineered, such that a good number of business insights are gathered, of which the following five questions are focused upon:
 
-1 Which are the Top 5 Bike Stations by Number of Starts?
+1. Which are the Top 5 Bike Stations by Number of Starts?
 
-2 Which are the Most Popular Trips?
+2. Which are the Most Popular Trips?
 
-3 Which borough has the highest service usage?
+3. Which borough has the highest service usage?
 
-4 How long are the most users travelling?
+4. How long are the most users travelling?
 
-5 Which gender uses the service adequately?
+5. Which gender uses the service adequately?
 
-6 Which age group has highest usage?
+6. Which age group has highest usage?
 
-7 What is the average trip duration based on User Type?
+7. What is the average trip duration based on User Type?
 
-8 Which user types have high trip duration?
+8. Which user types have high trip duration?
 
 
 #### 3. Data preparation
