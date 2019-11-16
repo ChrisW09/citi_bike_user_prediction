@@ -50,21 +50,53 @@ The dataset which is used for this project is New York Citi Bike share data whic
 
 Using the Cross-Industry Standard Process of Data Mining (CRISP-DM) the New York citi bike share dataset is collected, cleaned and engineered, such that a good number of business insights are gathered, of which the following five questions are focused upon:
 
-1. Which are the Top 5 Bike Stations by Number of Starts?
+**1. Which are the Top 5 Bike Stations by Number of Starts?**
 
-2. Which are the Most Popular Trips?
+![top5](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/img/Top5.png)
 
-3. Which borough has the highest service usage?
+Here, we have depicted the 5 highly used start stations in the city of New York. **Pershing Square North** seems to be the most used start station as it is quite close to Grand Central Terminal.
 
-4. How long are the most users travelling?
+**2. Which are the Most Popular Trips?**
 
-5. Which gender uses the service adequately?
+![pop](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/img/Most%20Popular.png)
 
-6. Which age group has highest usage?
+We have depicted the most frequently taken route. From the above plot, we can see that the round trip from **Soissons Landing to Soissons Landing** is quite frequent.
 
-7. What is the average trip duration based on User Type?
+**3. Which borough has the highest service usage?**
 
-8. Which user types have high trip duration?
+![borough](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/img/Borough.png)
+
+From the above, without any suprise, we can determine that the bikeshare service is highly used in **Manhattan, New York**
+
+**4. How long are the most users travelling?**
+
+![long_trips](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/img/Long%20Travelling.png)
+
+We have binned the trip duration into 3 bins - Normal Trips, Extended Trips and Long Trips. From the above we can observe that **Extended Trips** are taken frequently i.e 30 mins to 60 mins.
+
+**5. Which gender uses the service adequately?**
+
+![gender](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/img/Gender.png)
+
+We have one hot endoded the gender to 0,1, and 2 where 0-Unknown, 1-Male, 2-Female. We can see that **Male** gender are highly using this service.
+
+**6. Which age group has highest usage?**
+
+![age](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/img/Age%20Group.png)
+
+We have binned age into 3 bins namely- Young Adults(min-30), Middle-Aged Adults(31-45) and Old Adults(46-max). We observe that **Middle-Aged Adults** highly use the service followed by Young Adults. we can also observe that Old Adults are not falling back from the other two groups.
+
+**7. What is the average trip duration based on User Type?**
+
+![avg](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/img/Avg%20Trip%20Duration.png)
+
+Here, we have plotted avg trip duration over the the type of user. This can be clearly used to differentiate between Customers and Subscribers as **Subscribers** have a high avg trip duration close **33 mins**.
+
+**8. Which user types have high trip duration?**
+
+![high](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/img/Highest%20Trip%20Duration.png)
+
+We can observe that Subscribers take Extended Trips as compared to Customers who tend to use the service for normal trips.
 
 
 #### 3. Data preparation
