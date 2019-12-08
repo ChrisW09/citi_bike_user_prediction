@@ -113,16 +113,21 @@ Considering correlation of all the variables, we have considered the trip durati
 
 As the dataset has 1.2 Million records, we will implementing our model in **Google Colab**.
 
-For building and training the model we will be using **Ensemble Learning**. For initial analysis, we will be applying pipeling to the ensemble learning techniques, namely - **Random Forest Classifier, Bagging Classifier, AdaBoost Classifier and Gradient Boosting Classifier.** 
+For building and training the model we will be using **Ensemble Learning**. For initial analysis, we have applied **pipeling** to the ensemble learning algorithms, namely - **Random Forest Classifier, Bagging Classifier, AdaBoost Classifier and Gradient Boosting Classifier.** 
 
-Out of the 4 classifiers, **Random Forest Classifier** had the highest accuracy score of 86.35% followed by **Bagging Classifier** with an accuracy of 84.60%.
+Out of the 4 classifiers, **Random Forest Classifier** and **Bagging Classifier** had the highest accuracy score compared to the rest of the algorithms.
 
-As per the highest accuracy standpoint, we have chosen **Random Forest Classifier** as our base model and have applied GridSearchCV to tune the hyperparameters.
+Alternatively, we have implemented an **Artificial Neural Network** using **Pytorch** to our dataset. We have trained the neural network for 100 epochs using 4 hidden layers in a Sequential Manner with a learning rate of 0.01.
 
-Alternatively, we have implemented an **Artificial Neural Network** using **Pytorch** to our dataset. We have trained the neural network for 100 epochs using 4 hidden layers in a Sequential Manner with a learning rate of 0.01 and with a accuracy score of 92%.
+After training the neural network, we have saved the model into a file named [Bikeshare.pt](). Users can load the model onto their Jupyter Notebook and predict new data.
 
 #### 5. Evaluation
-As per the model we will be using accuracy_score as a metric to evalaute the performance of the model.
+
+Since we have implemented a classification model, we have evaluated our model using **accuracy_score** from sklearn as a primary metric. Once the model was fit, we have evaluated our model's features to the unseen test labels. 
+
+Considering the ensemble learning algorithm group, we wanted to discover which algorithm performs well in basic conditions without any parameter tuning and found out that **Random Forest Classifier** had the highest accuracy score of 86.35% followed by **Bagging Classifier** with an accuracy of 84.60%.
+
+We also wanted to check how a **deep learning** model performs againest this dataset. Therefore, we implemented an **Artificial Neural Network** using **Pytorch**. The model gave an accuracy of 92%. 
 
 #### 6. Conclusion 
 To build a model which is acuurate to accomodate above mentioned hypothesis.
