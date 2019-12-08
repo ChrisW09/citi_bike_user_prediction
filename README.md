@@ -119,7 +119,7 @@ Out of the 4 classifiers, **Random Forest Classifier** and **Bagging Classifier*
 
 Alternatively, we have implemented an **Artificial Neural Network** using **Pytorch** to our dataset. We have trained the neural network for 100 epochs using 4 hidden layers in a Sequential Manner with a learning rate of 0.01.
 
-After training the neural network, we have saved the model into a file named [Bikeshare.pt](). Users can load the model onto their Jupyter Notebook and predict new data.
+After training the neural network, we have saved the model into a file named [Bikeshare.pt](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/Bikeshare.pt). Users can load the model onto their Jupyter Notebook and predict new data.
 
 #### 5. Evaluation
 
@@ -130,7 +130,8 @@ Considering the ensemble learning algorithm group, we wanted to discover which a
 We also wanted to check how a **deep learning** model performs againest this dataset. Therefore, we implemented an **Artificial Neural Network** using **Pytorch**. The model gave an accuracy of 92%. 
 
 #### 6. Conclusion 
-To build a model which is acuurate to accomodate above mentioned hypothesis.
+
+This project has been built by implementing a **pipeline** of ensemble learning algorithms namely - **Random Forest, Bagging, Boosting and an Artificial Neural network**. As per our hypotheses, we built our machine learning and deep learning models inorder to get some insights which can be used to implement profitable business models. 
 
 #### Contributing Project Members
 
