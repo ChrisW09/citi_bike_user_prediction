@@ -48,7 +48,7 @@ The dataset which is used for this project is New York Citi Bike share data whic
    
 #### 2. Data understanding and Exploratory Data Analysis
 
-Using the Cross-Industry Standard Process of Data Mining (CRISP-DM) the New York citi bike share dataset is collected, cleaned and engineered, such that a good number of business insights are gathered, of which the following five questions are focused upon:
+Using the Cross-Industry Standard Process of Data Mining (CRISP-DM) the New York citi bike share dataset is collected, cleaned and engineered, such that a good number of business insights are gathered, of which the following eight questions are focused upon:
 
 **1. Which are the Top 5 Bike Stations by Number of Starts?**
 
@@ -72,7 +72,7 @@ From the above, without any suprise, we can determine that the bikeshare service
 
 ![long_trips](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/img/Long%20Travelling.png)
 
-We have binned the trip duration into 3 bins - Normal Trips, Extended Trips and Long Trips. From the above we can observe that **Extended Trips** are taken frequently i.e 30 mins to 60 mins.
+We have binned the trip duration into 3 bins - Normal Trips, Extended Trips and Long Trips. From the above we can observe that **Extended Trips** are taken frequently i.e trips of 30 mins to 60 mins.
 
 **5. Which gender uses the service adequately?**
 
@@ -117,7 +117,7 @@ For building and training the model we will be using **Ensemble Learning**. For 
 
 Out of the 4 classifiers, **Random Forest Classifier** and **Bagging Classifier** had the highest accuracy score compared to the rest of the algorithms.
 
-Alternatively, we have implemented an **Artificial Neural Network** using **Pytorch** to our dataset. We have trained the neural network for 100 epochs using 4 hidden layers in a Sequential Manner with a learning rate of 0.01.
+Alternatively, we have implemented an **Artificial Neural Network** using **Pytorch** to our dataset. We have trained the neural network for **100 epochs** using **4 hidden layers** in a Sequential Manner with a **learning rate of 0.01.**
 
 After training the neural network, we have saved the model into a file named [Bikeshare.pt](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/Bikeshare.pt). Users can load the model onto their Jupyter Notebook and predict new data.
 
@@ -131,7 +131,7 @@ We also wanted to check how a **deep learning** model performs againest this dat
 
 #### 6. Conclusion 
 
-This project has been built by implementing a **pipeline** of ensemble learning algorithms namely - **Random Forest, Bagging, Boosting and an Artificial Neural network**. As per our hypotheses, we built our machine learning and deep learning models inorder to get some insights which can be used to implement profitable business models. 
+This project has been built by implementing a **pipeline** of ensemble learning algorithms namely - **Random Forest, Bagging, Boosting and an Artificial Neural network**. As per our hypotheses, we built our machine learning and deep learning models inorder to get some insights which can be utilized in profitable business models. 
 
 #### Contributing Project Members
 
