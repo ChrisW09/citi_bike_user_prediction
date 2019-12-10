@@ -54,6 +54,8 @@ ipython notebook New_York_Fare.ipynb
 
 2. Once the Jupyter Notebook opens, you can run the Notebook and make appropriate changes.
 
+3. Inorder to load the [model]() provided in the repository, you can use the code present in [Instructions.pdf](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/Instructions.pdf) to load the model and start making predictions on new data.
+
 ### CRISP-DM Model
 
 #### 1. Installation:
