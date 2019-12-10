@@ -43,18 +43,18 @@ The dataset which is used for this project is New York Citi Bike share data whic
 ### Instructions 
 
 ```python
-jupyter notebook New_York_Fare.ipynb
+jupyter notebook Bikeshare_New.ipynb
 ```
 or
 
 ```python
-ipython notebook New_York_Fare.ipynb
+ipython notebook Bikeshare_New.ipynb
 ```
 1. Open Terminal or Command Prompt, Enter the above line to open the jupyter notebook(Note: Both the Dataset and the Notebook has to be in the same folder)
 
 2. Once the Jupyter Notebook opens, you can run the Notebook and make appropriate changes.
 
-3. Inorder to load the [model]() provided in the repository, you can use the code present in [Instructions.pdf](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/Instructions.pdf) to load the model and start making predictions on new data.
+3. In order to load the [model](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/Bikeshare.pt) provided in the repository, you can use the code present in [Instructions.pdf](https://github.com/sriganeshlokesh/kdd_project_team_10/blob/master/Instructions.pdf) to load the model and start making predictions on new data.
 
 ### CRISP-DM Model
 
