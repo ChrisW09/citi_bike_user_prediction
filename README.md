@@ -40,6 +40,20 @@ The dataset which is used for this project is New York Citi Bike share data whic
 * Gender (Zero=unknown; 1=male; 2=female)
 * Year of Birth
 
+### Instructions 
+
+```python
+jupyter notebook New_York_Fare.ipynb
+```
+or
+
+```python
+ipython notebook New_York_Fare.ipynb
+```
+1. Open Terminal or Command Prompt, Enter the above line to open the jupyter notebook(Note: Both the Dataset and the Notebook has to be in the same folder)
+
+2. Once the Jupyter Notebook opens, you can run the Notebook and make appropriate changes.
+
 ### CRISP-DM Model
 
 #### 1. Installation:
@@ -132,6 +146,10 @@ We also wanted to check how a **deep learning** model performs againest this dat
 #### 6. Conclusion 
 
 This project has been built by implementing a **pipeline** of ensemble learning algorithms namely - **Random Forest, Bagging, Boosting and an Artificial Neural network**. As per our hypotheses, we built our machine learning and deep learning models inorder to get some insights which can be utilized in profitable business models. 
+
+#### Future Enhancements
+
+1. Implement a Recurrent Neural Network in PyTorch or Tensorflow to further enhance the capabilities of the model to accurately determine whether the User is a Customer or a Subscriber. 
 
 #### Contributing Project Members
 
