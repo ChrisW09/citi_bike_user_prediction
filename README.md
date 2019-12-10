@@ -1,7 +1,7 @@
 # KDD Panthers (Group 10)
 This project is part of the Knowledge Discovery in Databases (ITCS - 6162) course from University of North Carolina at Charlotte.
 
-#### -- Project Status: [Active]
+#### -- Project Status: [Complete]
 
 ## Project Objective
 The Objective of this project is to predict the **usertype** (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Member) based on trip duration. We will also try to predict whether a customer would be a potential subscriber based on the frequency of trips and trip durations.
