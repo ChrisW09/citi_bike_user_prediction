@@ -1,4 +1,4 @@
-# KDD Panthers (Group 10)
+# Citi Bike User Prediction
 This project is part of the Knowledge Discovery in Databases (ITCS - 6162) course from University of North Carolina at Charlotte.
 
 #### -- Project Status: [Complete]
